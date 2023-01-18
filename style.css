@@ -8,9 +8,10 @@ body {
   }
   
   p {
+    color:aliceblue;
     font-family: verdana;
     font-size: 20px;
   }
   p :hover {
-    color: red;
+    background-color: red;
   }
