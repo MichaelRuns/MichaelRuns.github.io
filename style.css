@@ -1,17 +1,37 @@
-body {
-    background-color: lightblue;
+  .index-body {
+    background-color: lightsteelblue;
   }
   
-  h1 {
-    color: purple;
-    text-align: center;
-  }
-  
-  p {
-    color:aliceblue;
+  .portfolio-text {
+    color: green;
     font-family: verdana;
     font-size: 20px;
   }
-  p :hover {
-    background-color: red;
+  .portfolio-text:hover {
+    color: red;
   }
+  .portfolio-header {
+    color: seashell;
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .enter-button {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entry-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: trawnslate(-50%, -50%);
+}
+
